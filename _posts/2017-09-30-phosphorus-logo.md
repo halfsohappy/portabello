@@ -5,9 +5,18 @@ date: 2017-09-30 13:35:00 -0400
 image: phosphorus-explosion-small.jpg
 tags: [projects, design, logo]
 demo: http://www.phosphorus.com
+slideshow-name:
+  - image: /assets/img/phosphorus-cookie.jpg
+    caption: "Image caption"
+  - image: /assets/img/abLEDv5.0.png
+    caption: "Second image caption"
 ---
 At [Phosphorus][phosphorus], my focus was building software to analyze genetic sequencing data. I can't share any of the 
 code I developed there, but I can share the process behind something I made: the logo.
+
+
+{% include post-slideshow.html gallery-id="slideshow-name" %}
+
 
 Here's where it began. I was trying to convey Phosphorus' place on the periodic table (the atomic number 15), and the 
 fact that we were doing genetic tests (hence the DNA double helix).

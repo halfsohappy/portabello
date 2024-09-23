@@ -19,9 +19,9 @@
   <meta property="og:description" content="Annabel Lee is your best and only friend. She spends every waking moment either building something or occassionally dancing.
 "/>
   
-  <meta property="og:image" content="http://annabel-lee.xyz/assets/img/profile-photo.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/img/profile-photo-annie.jpg">
   
-  <meta property="og:url" content="http://annabel-lee.xyz/"/>
+  <meta property="og:url" content="http://localhost:4000/"/>
   <meta name="twitter:card" content="summary_large_image"/>
 
   <link rel="icon" href="/assets/img/favicon.png">
@@ -30,7 +30,8 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link href="//fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display:700|Montserrat:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wdth,wght@75..112.5,100..800&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
   <body class="d-none">
@@ -88,22 +89,29 @@
 
             
             
-            <button class="btn btn-secondary" data-filter=".projects">
-                Projects 
+            <button class="btn btn-secondary" data-filter=".ongoing">
+                Ongoing 
             </button>
             
 
             
             
-            <button class="btn btn-secondary" data-filter=".music">
-                Music 
+            <button class="btn btn-secondary" data-filter=".hardware">
+                Hardware 
             </button>
             
 
             
             
-            <button class="btn btn-secondary" data-filter=".tech-blog">
-                Tech Blog 
+            <button class="btn btn-secondary" data-filter=".software">
+                Software 
+            </button>
+            
+
+            
+            
+            <button class="btn btn-secondary" data-filter=".wearables">
+                Wearables 
             </button>
             
         </div>
@@ -113,25 +121,25 @@
     <div class="post-grid">
         <div class="grid-sizer col-xs-12 col-sm-6 col-md-6 col-lg-4"></div>
         
-        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 projects tech-blog">
-            <a href="/aws-batch-array-jobs/">
+        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 music cello cellolele cover">
+            <a href="/nixie_clock/">
                 <div class="grid-item-content">
                     <div class="card">
                         <div class="card-img-top">
                             
-                            <img src="/assets/img/hpc.jpg">
+                            <img src="/assets/img/nixie_guts.jpg">
                             
                             
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="/aws-batch-array-jobs/"> AWS Batch Array Jobs and GPU Processing </a>
+                                <a href="/nixie_clock/"> Logic-based Nixie Tube Pomodoro Timer </a>
                             </h4>
                             <div class="card-text">
-                                <div>For a recent contract job, I had to build a batch computing pipeline for scientific computation.
+                                <div>In which I use the fact that this is technically for an assignment in ECE 495: Product Design to justify spending dozens of hours on some of the most beautiful perfboard solder work of my entire career.
 
 </div>
-                                <small class="text-muted">Jul 21, 2018</small>
+                                <small class="text-muted">Sep 19, 2024</small>
                             </div>
                         </div>
                     </div>
@@ -139,31 +147,77 @@
             </a>
         </div>
         
-        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 music cello cellolele cover">
-            <a href="/cellolele-vivaldi-closing-concert/">
+        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 woodworking/other">
+            <a href="/wedding-arch/">
                 <div class="grid-item-content">
                     <div class="card">
                         <div class="card-img-top">
                             
-                            <img src="/assets/img/cellolele-vivaldi.jpg">
+                            <img src="/assets/img//arch/wedding_day.jpg">
                             
-                            
-                            <span class="play-button-icon fa-stack fa-lg">
-                              <i class="fas fa-square fa-stack-1x"></i>
-                              <i class="fab youtube-logo fa-youtube fa-stack-2x"></i>
-                            </span>
                             
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="/cellolele-vivaldi-closing-concert/"> Caffe Vivaldi – Closing Concert </a>
+                                <a href="/wedding-arch/"> 48 Hour Wedding Arch </a>
                             </h4>
                             <div class="card-text">
-                                <div>Caffè Vivaldi has been my musical home since I came to NYC 3 years ago. It was the first place I performed in the city, 
-and I’ve met some of the most talented, genuine people of my life through it.
+                                <div>A sweetheart table arch for my sister’s wedding under a time crunch.
 
 </div>
-                                <small class="text-muted">Jun 21, 2018</small>
+                                <small class="text-muted">Dec 30, 2023</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 projects abLED">
+            <a href="/abLEDv5.0/">
+                <div class="grid-item-content">
+                    <div class="card">
+                        <div class="card-img-top">
+                            
+                            <img src="/assets/img/abLEDv5.0.png">
+                            
+                            
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="/abLEDv5.0/"> Latest PCB Design for Wearables with Mesh Networking </a>
+                            </h4>
+                            <div class="card-text">
+                                <div>The tenth PCB sample for this project, smaller than ever while packing even more features.
+
+</div>
+                                <small class="text-muted">Sep 19, 2018</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 projects hardware ongoing">
+            <a href="/poem-pcb/">
+                <div class="grid-item-content">
+                    <div class="card">
+                        <div class="card-img-top">
+                            
+                            <img src="/assets/img/poem_pcb.jpg">
+                            
+                            
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="/poem-pcb/"> A Quick and Dirty PCB to (Hopefully) Finish A Year-long Project </a>
+                            </h4>
+                            <div class="card-text">
+                                <div>Hopefully, this will simplify the final assembly and mitigate integration hell enough that this gift for Christmas 2023 will be ready in time for Christmas 2024.
+
+</div>
+                                <small class="text-muted">Jul 21, 2018</small>
                             </div>
                         </div>
                     </div>
@@ -190,32 +244,6 @@ and I’ve met some of the most talented, genuine people of my life through it.
 
 </div>
                                 <small class="text-muted">Apr 17, 2018</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        
-        <div class="grid-item col-xs-12 col-sm-6 col-md-6 col-lg-4 projects tech design">
-            <a href="/postpartum-project/">
-                <div class="grid-item-content">
-                    <div class="card">
-                        <div class="card-img-top">
-                            
-                            <img src="/assets/img/ppp-landing.jpg">
-                            
-                            
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="/postpartum-project/"> Postpartum Project </a>
-                            </h4>
-                            <div class="card-text">
-                                <div>The Postpartum Project is one of the one of the largest online resource directories of postpartum specialists, with over 10k unique users per month. I had been curious about startups like <a href="https://quartethealth.com">Quartet</a> and <a href="https://talkspace.com">Talkspace</a> for a while, and I wanted to explore the space in a more concrete way.
-
-</div>
-                                <small class="text-muted">Feb 17, 2018</small>
                             </div>
                         </div>
                     </div>

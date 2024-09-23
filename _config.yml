@@ -10,14 +10,15 @@ projects_title: Home
 
 # User settings
 user_description_appendix: |
-  I stole this site to write about my interests: hardware and dance.
 
-  Rassaby built this site in [Jekyll][jekyll], and it's hosted for free on [GitHub Pages][gh-pages]. It's open source, so since I liked it,
-  I forked it on [GitHub][github] and made my own version.
+  This site is built in [Jekyll][jekyll] and hosted on Cloudflare Pages. The site theme is based on [Rassaby's][lrg] site,
+  which is open source and forked on my [Github][github].
+  
 
   [github]: https://github.com/halfsohappy/
-  [gh-pages]: https://pages.github.com/
   [jekyll]: https://jekyllrb.com
+  [lrg]: https://github.com/lrassaby/
+
 
 
 email: cyberannabel@gmail.com
@@ -25,30 +26,34 @@ email: cyberannabel@gmail.com
 github: halfsohappy
 #angellist: rassaby
 
-relevant_tags: ['projects', 'music', 'tech-blog']
+relevant_tags: ['ongoing', 'hardware','software','wearables', 'woodworking/other']
 
 resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
 music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
 
 author: Annabel Lee
 author_title: Electrical/Computer Engineer
-author_photo: profile-photo.jpg
+author_photo: profile-photo-annie.jpg
 user_description_short: |
-  I lovea da women.
+  I'm a student at Duke University majoring in Electrical & Computer Engineering and Computer Science. More importantly, I'm a lifelong maker
+  with a thirst for acquiring new skills and exploring novel ideas. 
   
-  I've founded a [couple][wirefreight] of [things][ppp]. Previously, I led the new products team engineering team at
-  Phosphorus Genomics, analyzing genetic data and educating tens of thousands of people on their risks of developing or
-  passing on genetic diseases.
+  
+## I lovea da women.
+  
+  ## I've founded a [couple][wirefreight] of [things][ppp]. Previously, I led the new products team engineering team at
+  ## Phosphorus Genomics, analyzing genetic data and educating tens of thousands of people on their risks of developing or
+  ## passing on genetic diseases.
 
-  Away from the keyboard, I make food and music. I'm half of a band called [Cellolele][cellolele] and I once played in
-  an ad for [Versace][versace].
+  ## Away from the keyboard, I make food and music. I'm half of a band called [Cellolele][cellolele] and I once played in
+  ## an ad for [Versace][versace].
 
-  [scala]: https://www.scala-lang.org/
-  [couple]: https://wirefreight.com/
-  [cellolele]: /cellolele-toxic/
-  [wirefreight]: http://wirefreight.com/
-  [ppp]: http://postpartumproject.com/
-  [versace]: /versace-eyewear
+  ## [scala]: https://www.scala-lang.org/
+  ## [couple]: https://wirefreight.com/
+  ## [cellolele]: /cellolele-toxic/
+  ## [wirefreight]: http://wirefreight.com/
+  ## [ppp]: http://postpartumproject.com/
+  ## [versace]: /versace-eyewear
 
 
 ## Disqus
@@ -76,4 +81,4 @@ plugins:
 
 include: [_sass, _pages]
 
-exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'README.md']
+exclude: ['package.json', 'node_modules', 'Gemfile', 'LICENSE', 'README.md']
